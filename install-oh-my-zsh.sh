@@ -3,7 +3,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 source $HOME/.zshrc
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-git clone https://github.com/bhilburn/powerlevel9k.git  $ZSH_CUSTOM/themes/powerlevel9k
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # Install powerline font with icons
 mkdir -p $HOME/.local/share/fonts
